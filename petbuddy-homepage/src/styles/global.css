@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    padding: 0px 80px;
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: #373737;
+    color: #9D9D9D;
+    font-family: "inter", sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: auto;
+}
