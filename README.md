@@ -6,14 +6,18 @@ In this branch, the basis of the page is left taking into account the structure 
 ```text
 /
 ├── public/
-│   └── imgFooter/
+│   └── footer/
 │   |   └── logFooter.svg
-│   └── favicon.svg
-│   └── faviconPetBuddy.svg
+│   └── favicon/
+│   |   └── favicon.svg
+│   |   └── faviconPetBuddy.svg
+│   └── header/
+│   |   └── logoType.svg/
 ├── src/
 │   └── components/
 │   |   └── Footer.astro
 │   |   └── Header.astro
+│   |   └── Navigation.astro
 │   └── layouts/
 │   |   └── BaseLayout.astro
 │   └── pages/
