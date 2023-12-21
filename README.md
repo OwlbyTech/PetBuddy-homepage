@@ -6,15 +6,20 @@ In this branch, the basis of the page is left taking into account the structure 
 ```text
 /
 ├── public/
+│   └── imgFooter/
+│   |   └── logFooter.svg
+│   └── favicon.svg
 │   └── faviconPetBuddy.svg
 ├── src/
 │   └── components/
-│       └── Footer.astro
-│       └── Header.astro
+│   |   └── Footer.astro
+│   |   └── Header.astro
 │   └── layouts/
-│       └── BaseLayout.astro
+│   |   └── BaseLayout.astro
 │   └── pages/
-│       └── index.astro
+│   |   └── index.astro
+│   └── styles/
+│   |   └── global.css
 └── package.json
 ```
 
