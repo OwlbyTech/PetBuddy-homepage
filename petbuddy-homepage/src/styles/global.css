@@ -27,8 +27,8 @@
   justify-content: space-between;
 }
 
-.boxNavigation a,
-.boxGit a {
+.box-navigation a,
+.box-git a {
   text-decoration: none;
   transition: text-decoration 0.3s ease;
   text-align: center;
@@ -38,7 +38,7 @@
   padding: 0px 20px;
 }
 
-.boxNavigation a:hover,
-.boxGit a:hover {
+.box-navigation a:hover,
+.box-git a:hover {
   text-decoration: underline;
 }
